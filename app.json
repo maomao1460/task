@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/add/add",
+    "pages/statistics/statistics",
+    "pages/userManage/userManage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "任务进度管理",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "任务"
+    }, {
+      "pagePath": "pages/statistics/statistics",
+      "text": "统计"
+    }]
+  }
+}
